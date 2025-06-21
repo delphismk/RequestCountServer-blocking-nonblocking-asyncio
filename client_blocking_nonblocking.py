@@ -1,8 +1,8 @@
-# le284serverを起動要
-#blocking関数を並列処理しnon-blocking関数は非同期処理
+# serverを起動要
+# blocking関数を並列処理しnon-blocking関数は非同期処理
 # loop.run_in_executor(executor, non-bfunc, 10) は
 # （※ executor = concurrent.futures.ProcessPoolExecutor())
-#「非同期コードから同期処理を非同期っぽく使うための橋渡し
+#非同期コードから同期処理を非同期っぽく使うための橋渡し
 
 import asyncio
 import time
